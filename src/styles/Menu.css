@@ -1,0 +1,58 @@
+/* Menu.css */
+.menu {
+    background-color: #6a9c89;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    display: flex;
+    padding: 30px 10px 30px 20px;
+    margin-right: 10px;
+    gap: 10px;
+    border-bottom: 1px solid white;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px 30px 20px;
+    font-size: 1.5rem;
+}
+
+
+.profile-container {
+    display: flex;
+    padding: 30px 10px 30px 20px;
+    gap: 10px;
+    margin-top: auto;
+    border-top: 1px solid white;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+.profile-picture {
+    margin-top: 10px;
+}
+
+.username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    font-size: 1rem;
+}
