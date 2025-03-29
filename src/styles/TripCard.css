@@ -1,0 +1,81 @@
+.trip-card {
+    width: 625px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+hr {
+    color: #b2b2b2;
+}
+
+.top {
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
+.rating {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.stars {
+    min-width: 100px;
+}
+
+.details {
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 20px;
+    border-top: #b2b2b2 solid 1px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    margin-top: auto;
+    border-top: #b2b2b2 solid 1px;
+    height: 60px;
+    align-items: center;
+}
+
+.date {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.btn-conatiner {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-btn {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.add-btn {
+    display: flex;
+    background-color:#ffa725;
+    color: white;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

@@ -3,6 +3,7 @@ import '../styles/HomePage.css';
 import Menu from "../components/Menu";
 import SearchBar from "../components/SearchBar";
 import TripCard from "../components/TripCard";
+import tripData from "../data/tripData";
 
 function HomePage() {
   return (
@@ -11,13 +12,11 @@ function HomePage() {
       <div className="body-container">
         <SearchBar/>
         <div className="trips">
-          <div className="trip-card">
-            <h2>Trip 1</h2>
-            <p>Details about Trip 1</p>
-          </div>
-          <TripCard/>
+          {tripData.map((trip) => (
+            <TripCard key={trip.id} trip={trip} />
+          ))}
         </div>
-        </div>
+      </div>
       <div className="chat-container">Chat</div>
     </div>
   );

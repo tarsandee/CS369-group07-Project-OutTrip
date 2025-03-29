@@ -6,7 +6,7 @@ const SearchBar = () => {
   return (
     <div className='searchbar'>
         <div className='search-input'><SearchIcon fontSize='large' sx={{color:'#000000'}}/> Search For Trip</div>
-        <div className='create-trip-button'>Create Trip</div>
+        <div className='create-trip-btn'>Create Trip</div>
     </div>
   )
 }
