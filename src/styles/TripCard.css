@@ -66,7 +66,7 @@ hr {
     border: #000000 solid 1px;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .add-btn {
@@ -77,5 +77,6 @@ hr {
     height: 30px;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: #ffa725 solid 1px;
 }

@@ -5,6 +5,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 0 2px #00000085;
 }
 
 .logo-container {
