@@ -5,8 +5,10 @@ import HomeFilledIcon from '@mui/icons-material/HomeFilled';
 import LogoutIcon from '@mui/icons-material/Logout';
 import TourIcon from '@mui/icons-material/Tour';
 import ProfileCard from "./ProfileCard";
+import { useNavigate } from "react-router-dom";
 
 function Menu() {
+    const navigate = useNavigate
     return (
         <div className="menu">
             <div className="logo-container">
@@ -14,11 +16,11 @@ function Menu() {
                 <div className="title">OutTrip</div>
             </div>
             <div className="option">
-                <div className="flex gap-2 pl-[20px]">
+                <div className="option-btn" onClick={() => navigate('/')}>
                     <HomeFilledIcon fontSize="large" />
                     <p>HOME</p>
                 </div>
-                <div className="flex gap-2 pl-[20px]">
+                <div className="option-btn">
                     <TourIcon fontSize="large"/>
                     <p>MY TRIP</p>
                 </div>
