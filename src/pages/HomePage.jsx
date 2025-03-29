@@ -4,6 +4,7 @@ import Menu from "../components/Menu";
 import SearchBar from "../components/SearchBar";
 import TripCard from "../components/TripCard";
 import tripData from "../data/tripData";
+import Chat from "../components/Chat";
 
 function HomePage() {
   return (
@@ -17,7 +18,7 @@ function HomePage() {
           ))}
         </div>
       </div>
-      <div className="chat-container">Chat</div>
+      <div className="chat-container"><Chat/></div>
     </div>
   );
 }
