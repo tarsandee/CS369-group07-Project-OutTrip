@@ -2,6 +2,7 @@ import React from 'react'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import '../styles/Chat.css';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import SmallTripCard from './SmallTripCard';
 
 function Chat() {
   return (
@@ -14,14 +15,18 @@ function Chat() {
             <p>Chat</p>
             <div className='flex gap-2 pt-2'>
                 <AccountCircleIcon fontSize='large'/>
-                <p>Hi there.</p>
+                <p className='pt-1 text-lg'>Hi there.</p>
             </div>
             <div className='flex gap-2 pt-2'>
                 <AccountCircleIcon fontSize='large'/>
-                <p>Hi there.</p>
+                <p className='pt-1 text-lg'>Hi there.</p>
             </div>
         </div>
-        <div className=''></div>
+        <div className='upcoming-trips'>
+            <p className='pb-2'>Upcoming Trips</p>
+            <SmallTripCard/>
+            <SmallTripCard/>
+        </div>
     </div>
   )
 }
