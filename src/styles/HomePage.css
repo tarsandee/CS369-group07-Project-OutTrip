@@ -13,6 +13,19 @@
     width: 60%;
 }
 
+.trips {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+
 .chat-container {
     background-color: green;
     width: 20%;

@@ -1,10 +1,10 @@
 import React from "react";
 import '../styles/Menu.css';
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import HomeFilledIcon from '@mui/icons-material/HomeFilled';
 import LogoutIcon from '@mui/icons-material/Logout';
 import TourIcon from '@mui/icons-material/Tour';
+import ProfileCard from "./ProfileCard";
 
 function Menu() {
     return (
@@ -24,11 +24,7 @@ function Menu() {
                 </div>
             </div>
             <div className="profile-container">
-                <div className="profile-picture"><AccountCircleIcon fontSize="large"/></div>
-                <div className="name-container">
-                    <div className="username">USERNAME</div>
-                    <div className="name">First name Last name</div>
-                </div>
+                <ProfileCard/>
                 <LogoutIcon fontSize="large" sx={{marginLeft: 'auto', marginTop:'10px'}}/>
             </div>
         </div>
