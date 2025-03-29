@@ -5,7 +5,6 @@ import SearchBar from "../components/SearchBar";
 import TripCard from "../components/TripCard";
 import tripData from "../data/tripData";
 import Chat from "../components/Chat";
-
 function HomePage() {
   const [searchText, setSearchText] = useState("");
 
