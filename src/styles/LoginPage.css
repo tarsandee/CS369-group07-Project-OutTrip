@@ -1,0 +1,110 @@
+/* LoginPage.css */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    background-image: url('../img/traveler-with-a-backpack-looking-at-mountains.jpg'); /* อ้างอิงภาพจากโฟลเดอร์ src/img */
+    background-size: cover; /* ทำให้ภาพเต็มหน้าจอ */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้ภาพซ้ำ */
+}
+
+/* รักษาความเด่นของฟอร์ม */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* เพิ่มพื้นหลังโปร่งแสงให้กับฟอร์ม */
+    border-radius: 15px; /* เพิ่มขอบมนให้ฟอร์ม */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับฟอร์ม */
+}
+
+.login-container h1 {
+    color: #000000;
+    font-size: 50px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    /* เอาตำแหน่ง top และการจัดการอื่นๆ ออก */
+}
+
+.login-container div {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* จัดให้ label และ input อยู่กลาง */
+}
+
+.login-container label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 14px 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.login-container button {
+    width: 60%;
+    background-color: #FFA725;
+    border-radius: 20px;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-container button:hover {
+    background-color: #FF8600;
+}
+
+.login-container .login-link,
+.login-container .sign-up {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* ทำให้ทั้งสองลิงก์อยู่กลาง */
+}
+
+.login-container .login-link a,
+.login-container .sign-up a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;  /* กำหนดขนาดตัวอักษรที่เท่ากัน */
+}
+
+.login-container .login-link a:hover,
+.login-container .sign-up a:hover {
+    text-decoration: underline;
+}
+
+.image-container img {
+    width: 443px;
+    height: 1024px;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    top: -50px;
+}

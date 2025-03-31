@@ -1,35 +1,37 @@
+/* HomePage.css */
 .home-page {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    justify-content: center;
-}
-
-.menu-container {
+  }
+  
+  .menu-container {
     width: 20%;
     z-index: 1;
-}
-
-.body-container {
+  }
+  
+  .body-container {
     width: 60%;
     height: 100vh;
-}
-
-.trips {
+  }
+  
+  .trips {
     background-color: #f0f0f0;
     width: 100%;
-    height: calc(100vh - 120px); 
+    height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:50px 0 50px 0;
+    padding: 50px 0 50px 0;
     gap: 20px;
     overflow-y: auto;
     scrollbar-width: none;
-}
-
-
-.chat-container {
+  }
+  
+  .chat-container {
     width: 20%;
     height: 100vh;
-}
+  }
+  
